@@ -57,4 +57,12 @@ public class fourSum {
         return res;
     }
 
+    public static void main(String[] args) {
+        int target = 0;
+        int[] nums = {-1, 1, 1, -1, 4, 5};
+        fourSum res = new fourSum();
+        System.out.println(res.fourSum(nums, target));
+
+    }
+
 }
